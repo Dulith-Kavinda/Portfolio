@@ -1,0 +1,5 @@
+.header-scrolled{
+    height: 60px !important;
+    transition-duration: 0.4s;
+    backdrop-filter: blur(12px);
+}
