@@ -22,4 +22,5 @@ The entire application is built on the following technologies:
 -   **Tailwind CSS**: For a sleek, responsive design using a utility-first approach.
 
 ## Website URL
-You can visit the live website here: `(https://dulith-kavinda-f9c63.web.app/)`
+You can visit the live website here: [https://dulith-kavinda-f9c63.web.app/](https://dulith-kavinda-f9c63.web.app/)
+
