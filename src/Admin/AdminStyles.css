@@ -1,0 +1,131 @@
+/* Admin Panel Theme - Matching Website Dark Theme */
+
+/* Force dark mode on admin panel */
+.admin-container {
+    color-scheme: dark;
+}
+
+/* Default font for admin */
+.admin-container,
+.admin-container * {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Text colors aligned with website theme */
+.admin-text-secondary {
+    color: rgba(217, 119, 6, 0.7); /* amber-400/70 */
+}
+
+.admin-text-tertiary {
+    color: rgba(217, 119, 6, 0.5); /* amber-400/50 */
+}
+
+/* Border colors aligned with website theme */
+.admin-border {
+    border-color: rgba(217, 119, 6, 0.3); /* amber-600/30 */
+}
+
+.admin-border-hover {
+    border-color: rgba(217, 119, 6, 0.6); /* amber-600/60 */
+}
+
+/* Background hover states */
+.admin-hover {
+    transition: background-color 0.2s ease;
+}
+
+.admin-hover:hover {
+    background-color: rgba(217, 119, 6, 0.1); /* amber-600/10 */
+}
+
+/* Input styling */
+.admin-input {
+    background-color: #020617; /* slate-950 */
+    border-color: rgba(217, 119, 6, 0.3);
+    color: white;
+}
+
+.admin-input:focus {
+    border-color: rgba(217, 119, 6, 0.6);
+    box-shadow: 0 0 0 3px rgba(217, 119, 6, 0.1);
+}
+
+/* Gradient text using website colors */
+.admin-gradient-text {
+    background: linear-gradient(to right, #AB4A09, #F58D2B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Card styling */
+.admin-card {
+    background-color: #020617; /* slate-950 */
+    border-color: rgba(217, 119, 6, 0.3);
+    border: 1px solid rgba(217, 119, 6, 0.3);
+    border-radius: 0.5rem;
+}
+
+.admin-card:hover {
+    border-color: rgba(217, 119, 6, 0.6);
+}
+
+/* Scrollbar styling for admin */
+.admin-scrollable::-webkit-scrollbar {
+    width: 12px;
+}
+
+.admin-scrollable::-webkit-scrollbar-track {
+    background: #020617;
+}
+
+.admin-scrollable::-webkit-scrollbar-thumb {
+    background-color: rgba(217, 119, 6, 0.5);
+    border-radius: 10px;
+    border: 3px solid #020617;
+}
+
+.admin-scrollable::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(217, 119, 6, 0.7);
+}
+
+/* Button styling */
+.admin-btn-primary {
+    background: linear-gradient(to right, #AB4A09, #F58D2B);
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.admin-btn-primary:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+.admin-btn-secondary {
+    background-color: #020617;
+    border-color: rgba(217, 119, 6, 0.3);
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.admin-btn-secondary:hover {
+    border-color: rgba(217, 119, 6, 0.6);
+    background-color: rgba(217, 119, 6, 0.05);
+}
+
+/* Status badge colors */
+.admin-status-active {
+    background-color: rgba(217, 119, 6, 0.2);
+    color: #F58D2B;
+}
+
+.admin-status-inactive {
+    background-color: rgba(107, 114, 128, 0.2);
+    color: #d1d5db;
+}
+
+/* Loading spinner color */
+.admin-spinner {
+    border-color: rgba(217, 119, 6, 0.3);
+    border-top-color: #F58D2B;
+}

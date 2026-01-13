@@ -13,7 +13,7 @@ export default function Header() {
     const [theamhover, setTheamhover] = useState(false)
     const [hover, setHover] = useState(false)
     const [theme, setTheme] = useState(
-        localStorage.getItem('theme') ? localStorage.getItem('theme') : 'system'
+        localStorage.getItem('theme') ? localStorage.getItem('theme') : 'dark'
     )
     const element = document.documentElement
     const darkQuery = window.matchMedia("(prefers-color-scheme: dark)")

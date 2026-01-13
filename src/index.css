@@ -14,17 +14,26 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: #120a05;
+    background: #1a1a1a;
 }
 
 ::-webkit-scrollbar-thumb {
     background-color: #AB4A09;
     border-radius: 10px;
-    border: 3px solid #120a05;
+    border: 3px solid #1a1a1a;
 }
 
 ::-webkit-scrollbar-thumb:hover {
     background-color: #e0943dfe;
+}
+
+/* Dark theme by default */
+html {
+    color-scheme: dark;
+}
+
+html.dark {
+    color-scheme: dark;
 }
 
 .berkshire-swash-regular {
@@ -80,7 +89,7 @@
 
 @layer utilities {
     .radial-gradient {
-        background: radial-gradient(circle, #ebce0f 20%, transparent, transparent);
+        background: radial-gradient(circle, #ebce0f 20%, #150a00, transparent) !important;
     }
 
     .radial-gradient-dark {
@@ -93,6 +102,11 @@
 .data-header {
     margin-inline: auto;
     position: relative;
+    -webkit-mask-image: linear-gradient(to right,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 1) 20%,
+            rgba(0, 0, 0, 1) 80%,
+            rgba(0, 0, 0, 0));
     mask-image: linear-gradient(to right,
             rgba(0, 0, 0, 0),
             rgba(0, 0, 0, 1) 20%,
